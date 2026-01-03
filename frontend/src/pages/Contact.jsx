@@ -14,7 +14,7 @@ const pinPoint = {
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-[#ffffe3] flex items-center justify-center px-4 py-12">
+    <div id="contact" className="min-h-screen bg-[#ffffe3] flex items-center justify-center px-4 py-12">
       <div className="w-full max-w-6xl rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
 
         <div className="p-8 md:p-12 flex flex-col justify-center gap-8 bg-linear-to-br from-white to-gray-50">

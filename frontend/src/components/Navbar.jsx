@@ -33,9 +33,9 @@ const Navbar = () => {
 
     const navLinks = [
         { name: "Home", href: "/" },
-        { name: "About", href: "/about" },  
-        { name: "Reviews", href: "/reviews" },
-        { name: "Contact", href: "/contact" },
+        { name: "About", href: "#about" },  
+        { name: "Reviews", href: "#reviews" },
+        { name: "Contact", href: "#contact" },
     ];
 
     return (
@@ -55,11 +55,8 @@ const Navbar = () => {
                     className="relative flex flex-col items-end gap-2 z-130 group focus:outline-none p-2 cursor-pointer"
                     aria-label="Toggle Menu"
                 >
-                    {/* Top Bar */}
                     <span className={`h-0.5 transition-all duration-300 bg-black ${isOpen ? "w-8 bg-white rotate-45 translate-y-2.5" : "w-10"}`} />
-                    {/* Middle Bar */}
                     <span className={`h-0.5 w-8 bg-black transition-all duration-300 ${isOpen ? "opacity-0" : "opacity-100"}`} />
-                    {/* Bottom Bar */}
                     <span className={`h-0.5 transition-all duration-300 bg-black ${isOpen ? "w-8 bg-white -rotate-45 -translate-y-2.5" : "w-6"}`} />
                 </button>
             </nav>

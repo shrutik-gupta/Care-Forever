@@ -46,7 +46,7 @@ const About = () => {
   });
 
   return (
-    <div
+    <div id="about"
       className="
         cards-wrapper
         relative

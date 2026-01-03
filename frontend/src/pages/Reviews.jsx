@@ -75,7 +75,7 @@ const Reviews = () => {
 
 
     return (
-        <section
+        <section id="reviews"
             ref={containerRef}
             className="h-screen bg-[#4a4a4a] overflow-hidden"
         >
