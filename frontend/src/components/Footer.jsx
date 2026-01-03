@@ -47,7 +47,7 @@ export default function Footer() {
               >
                 <MapPin size={18} className="mt-0.5 shrink-0" />
                 <span className="text-sm">
-                  123 Main Street, Bhayandar<br />Maharashtra, India
+                  Shop No. 8/ Ground Floor/ Poonam Orbit CHSL./ Queen's Park Road/ Mira Road (East) - 401107
                 </span>
               </a>
             </div>
